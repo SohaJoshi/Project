@@ -1,0 +1,49 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "0.5",
+    "backgroundImage": "https://i.pinimg.com/736x/43/e1/b8/43e1b8e1faa612109b478c47207883f9.jpg",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=8",
+                            "size": "Stretch"
+                        }
+                    
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                         {
+                            "type": "TextBlock",
+                            "text": "Ingredients",
+                            "color": "Light",
+                            "weight": "Bolder",
+                            "wrap": true,
+                            "size": "large",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "The blueberry cheesecake ingredients are ",
+                            "color": "Light",
+                            "weight": "Bolder",
+                            "wrap": true,
+                            "size": "default",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
