@@ -1,0 +1,59 @@
+{
+ "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+ "type": "AdaptiveCard",
+ "version": "1.0",
+ "body": [
+    {
+      "type": "Image",
+      "url": "https://image.flaticon.com/icons/svg/1046/1046747.svg",
+      "horizontalAlignment": "center",
+      "size":"medium"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "horizontalAlignment": "center",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Quality and Simplicity",
+      "wrap": true,
+      "maxLines": 0
+    },
+	{
+      "type": "TextBlock",
+      "spacing": "medium",
+      "horizontalAlignment": "center",
+      "size": "default",
+      "text": "Click on a pizza or write the name to know the ingredients!",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+	"type": "Action.Submit",
+    "title": "Margherita Pizza - ₹400",
+    "data": "ingredients margherita"
+    },
+     {
+	"type": "Action.Submit",
+    "title": "Marinara Pizza - ₹400",
+    "data": "ingredients marinara"
+    },
+      {
+	"type": "Action.Submit",
+    "title": "Napoli Pizza - ₹450",
+    "data": "ingredients napoli"
+    },
+      {
+	"type": "Action.Submit",
+    "title": "Bufala Pizza - ₹500",
+    "data": "ingredients bufala"
+    },
+      {
+	"type": "Action.Submit",
+    "title": "Meatzaa Pizza - ₹650",
+    "data": "ingredients Meatzaa"
+    }
+  ]
+}
